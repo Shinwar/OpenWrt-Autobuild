@@ -37,7 +37,7 @@ cp -rf ../immortalwrt/package/libs/mbedtls package/libs/
 git clone -b master --depth 1 --single-branch https://github.com/NateLol/luci-app-oled package/new/luci-app-oled
 
 # OpenClash
-git clone -b master --depth 1 --single-branch https://github.com/vernesong/OpenClash package/new/luci-app-openclash
+# git clone -b master --depth 1 --single-branch https://github.com/vernesong/OpenClash package/new/luci-app-openclash
 
 # Realtek RTL8125/8125B/8126A
 git clone -b master --depth 1 --single-branch https://github.com/sbwml/package_kernel_r8125 package/new/r8125
@@ -64,7 +64,7 @@ cp -rf ../immortalwrt-luci/applications/luci-app-vlmcsd package/new/
 cp -rf ../immortalwrt-packages/net/vlmcsd package/new/
 
 # Zerotier
-cp -rf ../immortalwrt-luci/applications/luci-app-zerotier package/new/
+# cp -rf ../immortalwrt-luci/applications/luci-app-zerotier package/new/
 
 # default settings and translation
 cp -rf ../default-settings package/new/
